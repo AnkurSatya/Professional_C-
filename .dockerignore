@@ -1,0 +1,12 @@
+.venv
+.git
+.gitignore*.pyc
+.DS_Store
+.git/
+
+build/
+
+Dockerfile
+docker-compose.yml
+
+apple-silicon.profile

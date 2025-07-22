@@ -1,0 +1,1 @@
+Run conan_build.sh and then execute build/Debug/src/proc++

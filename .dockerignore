@@ -3,9 +3,3 @@
 .DS_Store
 
 build/
-
-Dockerfile
-docker-compose.yml
-docker_build.sh
-
-apple-silicon.profile

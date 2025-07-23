@@ -1,12 +1,11 @@
-.venv
-.git
+.venv/
 .gitignore*.pyc
 .DS_Store
-.git/
 
 build/
 
 Dockerfile
 docker-compose.yml
+docker_build.sh
 
 apple-silicon.profile

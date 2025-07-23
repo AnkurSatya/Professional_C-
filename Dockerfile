@@ -2,7 +2,9 @@
 FROM ubuntu:24.04
 
 # Set working directory
-WORKDIR /professional_c++
+WORKDIR /home/professional_c++
+
+COPY . .
 
 # Install GCC 13, CMake, Python3, Conan, and common build tools
 RUN apt update && apt install -y \

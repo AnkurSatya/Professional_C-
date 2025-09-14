@@ -1,5 +1,7 @@
 {
-    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/Release/compile_commands.json",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
     "files.associations": {
       "qlabel": "cpp",
       "qwidget": "cpp",
@@ -65,6 +67,8 @@
       "compare": "cpp",
       "concepts": "cpp",
       "algorithm": "cpp",
-      "qvboxlayout": "cpp"
+      "qvboxlayout": "cpp",
+      "format": "cpp",
+      "charconv": "cpp"
     }
   }

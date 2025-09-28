@@ -14,8 +14,6 @@ cmake -Bbuild/Debug -S. \
 -DCMAKE_TOOLCHAIN_FILE=build/Debug/generators/conan_toolchain.cmake \
 -DCMAKE_BUILD_TYPE=Debug \
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--Wliteral-conversion
--Wconversion
 
 # Compiling the project
 cmake --build ./build/Debug --config Debug

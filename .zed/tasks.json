@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Build and Run",
+    "command": "chmod +x ./conan_build.sh && ./conan_build.sh && ./build/Debug/src/proc++",
+    "cwd": "/Users/ankur/personal/Professional C++"
+  },
+  {
+    "label": "Build and Run tests",
+    "command": "chmod +x ./conan_build.sh && ./conan_build.sh && ctest -V --test-dir build/Debug/tests",
+    "cwd": "/Users/ankur/personal/Professional C++"
+  }
+]

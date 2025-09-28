@@ -1,6 +1,7 @@
 # Create a library target for all source files
 add_library(proc++Lib
     Employee.cpp
+    Database.cpp
     # add other .cpp files here
 )
 

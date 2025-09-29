@@ -5,7 +5,7 @@ export CC=/opt/homebrew/opt/llvm/bin/clang
 export CXX=/opt/homebrew/opt/llvm/bin/clang++
 
 # Setting up the project and installing dependencies
-conan install . --build=missing --profile:host=apple-silicon.profile  -s build_type=Debug
+.venv/bin/conan install . --build=missing --profile:host=apple-silicon.profile  -s build_type=Debug
 
 # Generating and configuring the build system
 cmake -Bbuild/Debug -S. \

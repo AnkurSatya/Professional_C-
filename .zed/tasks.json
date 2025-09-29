@@ -1,12 +1,12 @@
 [
   {
-    "label": "Build and Run",
-    "command": "chmod +x ./conan_build.sh && ./conan_build.sh && ./build/Debug/src/proc++",
+    "label": "Chapter 1 run",
+    "command": "chmod +x ./conan_build.sh && ./conan_build.sh && ./build/Debug/src/Chapter1/chapter1",
     "cwd": "/Users/ankur/personal/Professional C++"
   },
   {
-    "label": "Build and Run tests",
-    "command": "chmod +x ./conan_build.sh && ./conan_build.sh && ctest -V --test-dir build/Debug/tests",
+    "label": "Chapter 1 tests",
+    "command": "chmod +x ./conan_build.sh && ./conan_build.sh && ctest -V --test-dir build/Debug/tests/Chapter1",
     "cwd": "/Users/ankur/personal/Professional C++"
   }
 ]

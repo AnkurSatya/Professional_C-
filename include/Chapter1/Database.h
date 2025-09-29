@@ -1,3 +1,5 @@
+#pragma once
+
 #include <Employee.h>
 #include <vector>
 
